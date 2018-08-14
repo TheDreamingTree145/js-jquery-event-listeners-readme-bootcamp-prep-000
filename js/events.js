@@ -6,6 +6,7 @@ getIt();
 frameIt();
 submitIt();
 pressIt();
+add();
 });
 
 function getIt() {

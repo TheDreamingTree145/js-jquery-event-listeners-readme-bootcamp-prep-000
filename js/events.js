@@ -15,11 +15,7 @@ function getIt() {
   });
 }
 
-function frameIt() {
-  $('img').on('click', function() {
-    $('img').addClass('tasty')
-  })
-}
+
 
 function submitIt() {
   $('form').on('submit', function() {

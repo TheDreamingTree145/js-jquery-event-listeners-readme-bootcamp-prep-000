@@ -6,6 +6,7 @@ getIt();
 frameIt();
 submitIt();
 pressIt();
+$('img').addClass('tasty')
 });
 
 function getIt() {
@@ -14,11 +15,6 @@ function getIt() {
   });
 }
 
-function frameIt() {
-  $('img').on('click', function() {
-    $('img').addClass('tasty')
-  })
-}
 
 function submitIt() {
   $('form').on('submit', function() {

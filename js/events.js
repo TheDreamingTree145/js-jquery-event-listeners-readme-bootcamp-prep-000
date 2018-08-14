@@ -15,7 +15,9 @@ function getIt() {
   });
 }
 
-
+function add() {
+  
+}
 
 function submitIt() {
   $('form').on('submit', function() {
